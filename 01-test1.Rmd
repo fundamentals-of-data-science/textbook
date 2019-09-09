@@ -1,0 +1,13 @@
+# Python test 1 
+
+```{r}
+# library(reticulate)
+# use_condaenv("test2")
+scipy <- import("scipy")
+```
+
+```{python}
+#import pandas as pd
+print("Hello")
+```
+

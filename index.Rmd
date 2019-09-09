@@ -1,0 +1,27 @@
+---
+title: "Fundamentals of Data Science"
+author: "Stephyn Butcher"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+# output: 
+#   bookdown::gitbook:
+#   bookdown::pdf_book:
+documentclass: scrbook
+classoption: oneside,openany
+output:
+  bookdown::pdf_book:
+    template: null
+# documentclass: book
+description: "Release Spring 2019.1"
+---
+
+# Preface {-}
+
+In this book, we will introduce an interesting
+method.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(reticulate)
+use_condaenv("test2")
+```

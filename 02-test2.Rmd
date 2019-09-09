@@ -1,0 +1,13 @@
+# Python test2 
+
+```{r}
+# library(reticulate)
+# use_condaenv("test", required = TRUE)
+# pd <- import("pandas")
+```
+
+```{python}
+from fundamentals_of_data_science import models
+models.ALGORITHMS
+```
+
